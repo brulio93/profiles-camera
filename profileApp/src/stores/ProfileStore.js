@@ -21,7 +21,7 @@ class ProfileListStore {
     }
 
     @action addProfile(profile){
-        this.picturePath = 'https://octicons.github.com/img/og/mark-github.png';
+        this.photo_uri = 'https://octicons.github.com/img/og/mark-github.png';
         this.profiles.push(profile);
         AsyncStorage.setItem(this.StorageUrl, JSON.stringify(this.profiles));
     }
