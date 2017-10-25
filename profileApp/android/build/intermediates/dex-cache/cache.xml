@@ -12,24 +12,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_f67356868f77d69dda8eb72b3fa899196a8eea5c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.48.4\jars\libs\infer-annotations-4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_54b330dd7e8fb87e18d4dd9f3006e8dff4f14e3b.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.3.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -48,39 +30,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\braulio.barrera\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_b085806e430a644528043ada5786a3770e07c33e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_9563357246744b10cb58f278d6387d0a97c4df12.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\exploded-aar\profileApp\react-native-camera\unspecified\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="9d5c316e13caccc36468da7a594ddd466734fc02">
         <dex dex="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\pre-dexed\debug\profileApp-react-native-camera-unspecified_07615f70f48646cacd7bb726d58d1a5908d05d99.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_d60210d4f4019022aedb5ebffe1fec087830cb4d.jar" />
     </item>
     <item
         is-multidex="false"
@@ -93,12 +48,111 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.48.4\jars\classes.jar"
+        jar="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.49.3\jars\libs\infer-annotations-4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="56d3e81fee5f47a7a12ab65f4620f580c9c71d1e">
-        <dex dex="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.48.4_638e1589ded1523ce5ef05177fb976106d676a98.jar" />
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_5e60c8b60f7323dfb74d86d124f7f76a309176d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\braulio.barrera\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\pre-dexed\debug\core-3.2.1_6b03a947a4dc62e5efd35a7cc98c1f3546e71bea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_efb16f9e6f198b98b5f4cbf44601bbcc82c1ad6e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_9489cb997c69b48f877a0cf920c21cff3d84f3c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.3.0_043a11faf40349d26d67d695a1901e9d72c1925b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\braulio.barrera\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_0231d5765da0642dc19f911b02d6c0eafa1670c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\braulio.barrera\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_45a2a77f21863baad95cb781ff5b30c5ce9c658b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_f67356868f77d69dda8eb72b3fa899196a8eea5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\braulio.barrera\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_b085806e430a644528043ada5786a3770e07c33e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.49.3\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e013739f7ddb6740bf196dc515d8999a6030f9ea">
+        <dex dex="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.49.3_723ab2389e31681fb1601a4fcc8d5c101dfc5361.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_9563357246744b10cb58f278d6387d0a97c4df12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_d60210d4f4019022aedb5ebffe1fec087830cb4d.jar" />
     </item>
     <item
         is-multidex="false"
@@ -147,15 +201,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\braulio.barrera\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
-        <dex dex="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\pre-dexed\debug\core-3.2.1_6b03a947a4dc62e5efd35a7cc98c1f3546e71bea.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -165,39 +210,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_efb16f9e6f198b98b5f4cbf44601bbcc82c1ad6e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_9489cb997c69b48f877a0cf920c21cff3d84f3c8.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\braulio.barrera\.gradle\caches\modules-2\files-2.1\com.drewnoakes\metadata-extractor\2.9.1\53fdf22be10c9d426ec63431c7342895bc642261\metadata-extractor-2.9.1.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="53fdf22be10c9d426ec63431c7342895bc642261">
         <dex dex="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\pre-dexed\debug\metadata-extractor-2.9.1_0a1f2770ef84a482a766fda823bf7cf3b30351a0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
-        <dex dex="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.3.0_043a11faf40349d26d67d695a1901e9d72c1925b.jar" />
     </item>
     <item
         is-multidex="false"
@@ -216,24 +234,6 @@
         revision="23.0.1"
         sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
         <dex dex="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1_81dcd5b6990c1410a394b9aea2ddb7e9c91e3a70.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\braulio.barrera\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_0231d5765da0642dc19f911b02d6c0eafa1670c1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\braulio.barrera\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
-        <dex dex="C:\React Native\profile-camera\profileApp\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_45a2a77f21863baad95cb781ff5b30c5ce9c658b.jar" />
     </item>
 
 </items>

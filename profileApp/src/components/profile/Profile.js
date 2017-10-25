@@ -45,17 +45,17 @@ export default class Profile extends React.Component{
         catch(error){
             console.log(`Error: ${error}`);
         }
-        this.setState({
-            name: '',
-            phone: '',
-            address: '',
-            photo_uri: ''
-        });
         navigation.goBack();
     }
     saveProfile(){
         if(this.state.name && this.state.phone && this.state.address){
             this.createProfile();            
+            this.setState({
+                name: '',
+                phone: '',
+                address: '',
+                photo_uri: ''
+            });           
             Alert.alert('Contact Saved');
         }
         else {
@@ -88,9 +88,9 @@ export default class Profile extends React.Component{
         else {
             content = (            
                 <Card title='Profile' image = { { uri: this.state.photo_uri || ProfileStore.photo_uri } } >
-                    <TextInput style={styles.textInput} placeholder="Name" onChangeText={(name) => this.setState({name})} />
-                    <TextInput style={styles.textInput} keyboardType='numeric' placeholder="Phone" onChangeText={(phone) => this.setState({phone})}/>
-                    <TextInput style={styles.textInput} placeholder="Address" onChangeText={(address) => this.setState({address})}/>
+                    <TextInput style={styles.textInput} placeholder="Name" onChangeText={(name) => this.setState({name})} value = {this.state.name} />
+                    <TextInput style={styles.textInput} keyboardType='numeric' placeholder="Phone" onChangeText={(phone) => this.setState({phone})} value = {this.state.phone}/>
+                    <TextInput style={styles.textInput} placeholder="Address" onChangeText={(address) => this.setState({address})} value = {this.state.address}/>
                 </Card>
         );
         }
@@ -99,7 +99,6 @@ export default class Profile extends React.Component{
 
     render(){
         const {ProfileStore} = this.props;
-        const {navigate} = this.props.navigation;
         let content = this.renderCamera();
         return(
             <View style={styles.indexContainer}>

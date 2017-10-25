@@ -6,7 +6,7 @@ class ProfileListStore {
     @observable profiles = [];
     @observable selectedProfile = {};
     @observable storageKey = 'compData';
-
+    
     @computed get StorageUrl(){
         return this.storageKey;
     }

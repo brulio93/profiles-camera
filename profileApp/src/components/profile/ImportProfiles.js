@@ -68,6 +68,7 @@ export default class ImportProfiles extends React.Component{
                         subtitle = {dataObject.username || dataObject.first_name}
                         title = {dataObject.name || dataObject.last_name}
                         rightTitle = {dataObject.phone}
+                        containerStyle = {{backgroundColor: dataObject.isSelected ? "#DCEDC8" : "#ffffff"}}
                         />);
             });
             return dataArr;
@@ -107,9 +108,7 @@ export default class ImportProfiles extends React.Component{
 
     renderDataList(){
         if(this.state.data){
-        return <Card isVisible={true} >
-                    <List>{ this.getAvailableData() }</List>
-               </Card>
+        return  <List>{ this.getAvailableData() }</List>
         }
         return;
     }

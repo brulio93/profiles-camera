@@ -4,7 +4,7 @@ import Camera from 'react-native-camera';
 import styles from '../../styles/Styles';
 import {inject, observer} from 'mobx-react';
 
-@inject('ProfileStore')
+@inject(['ProfileStore'])
 @observer
 export default class CameraComp extends React.Component{
     static navigationOptions = ({navigation}) => ({

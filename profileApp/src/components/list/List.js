@@ -23,13 +23,13 @@ export default class MyList extends React.Component{
     displayProfile(profile, index){
         const {navigate} = this.props.navigation;             
         this.props.ProfileStore.profileSelected(profile);
-        navigate("ProfileDetail", {"index": index});
+        navigate("ProfileDetail", {'index': index});
     }
 
     setProfile(index){
         const profiles = this.state.profilesSelected;
         profiles.push(index);
-        this.setState({profilesSelected})
+        this.setState({profiles});
     }
 
     render(){
@@ -37,8 +37,8 @@ export default class MyList extends React.Component{
         const {profilesSelected} = this.state;
         return(
             <ScrollView>
-                <Card title = "List of Contacts">
                     {
+                        ProfileStore.profiles.length ?
                         ProfileStore.profiles.map((profile, i) => (
                             <ListItem roundAvatar avatar = {{uri: profile.photo_uri}} 
                                       title = {profile.name}
@@ -47,9 +47,8 @@ export default class MyList extends React.Component{
                                       onLongPress = {this.setProfile.bind(this, i)}
                                       containerStyle = {{ backgroundColor: profilesSelected.indexOf(i) >= 0 ? "#f1f1f1" : "#ffffff"}}
                             />
-                        ))
-                    }
-                </Card>    
+                        )) : undefined
+                    }   
             </ScrollView>
         );
     }

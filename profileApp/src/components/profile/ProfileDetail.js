@@ -13,10 +13,10 @@ export default class ProfileDetail extends React.Component{
         const {ProfileStore} = this.props;
 
         this.state = {
-            name: ProfileStore.profileSelected.name,
-            phone: ProfileStore.profileSelected.phone,
-            address: ProfileStore.profileSelected.address,            
-            avatar_uri: ProfileStore.profileSelected.photo_uri,
+            name: ProfileStore.selectedProfile.name,
+            phone: ProfileStore.selectedProfile.phone,
+            address: ProfileStore.selectedProfile.address,            
+            photo_uri: ProfileStore.selectedProfile.photo_uri,
             index: this.props.navigation.state.params.index
         }
     }

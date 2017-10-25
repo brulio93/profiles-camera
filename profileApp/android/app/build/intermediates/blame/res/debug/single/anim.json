@@ -1,11 +1,11 @@
 [
     {
         "merged": "C:\\React Native\\profile-camera\\profileApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_down.xml",
-        "source": "C:\\React Native\\profile-camera\\profileApp\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.48.4\\res\\anim\\slide_down.xml"
+        "source": "C:\\React Native\\profile-camera\\profileApp\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.49.3\\res\\anim\\slide_down.xml"
     },
     {
         "merged": "C:\\React Native\\profile-camera\\profileApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in.xml",
-        "source": "C:\\React Native\\profile-camera\\profileApp\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.48.4\\res\\anim\\fade_in.xml"
+        "source": "C:\\React Native\\profile-camera\\profileApp\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.49.3\\res\\anim\\fade_in.xml"
     },
     {
         "merged": "C:\\React Native\\profile-camera\\profileApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
@@ -33,7 +33,7 @@
     },
     {
         "merged": "C:\\React Native\\profile-camera\\profileApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
-        "source": "C:\\React Native\\profile-camera\\profileApp\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.48.4\\res\\anim\\fade_out.xml"
+        "source": "C:\\React Native\\profile-camera\\profileApp\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.49.3\\res\\anim\\fade_out.xml"
     },
     {
         "merged": "C:\\React Native\\profile-camera\\profileApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
@@ -41,7 +41,7 @@
     },
     {
         "merged": "C:\\React Native\\profile-camera\\profileApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\slide_up.xml",
-        "source": "C:\\React Native\\profile-camera\\profileApp\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.48.4\\res\\anim\\slide_up.xml"
+        "source": "C:\\React Native\\profile-camera\\profileApp\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.49.3\\res\\anim\\slide_up.xml"
     },
     {
         "merged": "C:\\React Native\\profile-camera\\profileApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
@@ -53,11 +53,11 @@
     },
     {
         "merged": "C:\\React Native\\profile-camera\\profileApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\catalyst_push_up_in.xml",
-        "source": "C:\\React Native\\profile-camera\\profileApp\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.48.4\\res\\anim\\catalyst_push_up_in.xml"
+        "source": "C:\\React Native\\profile-camera\\profileApp\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.49.3\\res\\anim\\catalyst_push_up_in.xml"
     },
     {
         "merged": "C:\\React Native\\profile-camera\\profileApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\catalyst_push_up_out.xml",
-        "source": "C:\\React Native\\profile-camera\\profileApp\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.48.4\\res\\anim\\catalyst_push_up_out.xml"
+        "source": "C:\\React Native\\profile-camera\\profileApp\\android\\app\\build\\intermediates\\exploded-aar\\com.facebook.react\\react-native\\0.49.3\\res\\anim\\catalyst_push_up_out.xml"
     },
     {
         "merged": "C:\\React Native\\profile-camera\\profileApp\\android\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",

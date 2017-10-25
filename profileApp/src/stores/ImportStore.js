@@ -2,23 +2,15 @@ import {computed, observable, action} from 'mobx';
 
 class _ImportStore{
     @observable url = '';
-    @observable data = undefined;
+    @observable data = [];
 
-    constructor(){
-        
-    }
-
-    @action getProfiles(serviceUrl){
-        fetch(url)
-        .then((response) => response.json())
-        .then((responseData) => {
+    @action async getProfiles(url){
+        const response = await fetch(url);
+        const responseData = response.json();
+        if(response.status === 200){
             this.data = responseData;
-        })
-        .catch((error) => {
-           Alert.alert(`Error: ${error}`);
-           console.error(error);
-        });
-        return this.data;
+        }
+        
     }
 }
 
