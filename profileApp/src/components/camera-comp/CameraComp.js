@@ -16,7 +16,7 @@ export default class CameraComp extends React.Component{
         const options = {};
         this.camera.capture({metadata: options})
           .then((data) => {
-                this.props.ProfileStore.photo_uri = data.path;
+                this.props.ProfileStore.ProfileStore.photo_uri = data.path;
                 this.props.toggleFunction();
                 return console.log(data)
             })

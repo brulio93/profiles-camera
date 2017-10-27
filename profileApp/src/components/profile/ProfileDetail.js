@@ -10,7 +10,7 @@ import styles from '../../styles/Styles';
 export default class ProfileDetail extends React.Component{
     constructor(props){
         super(props);
-        const {ProfileStore} = this.props;
+        const {ProfileStore} = this.props.ProfileStore;
 
         this.state = {
             name: ProfileStore.selectedProfile.name,
@@ -27,7 +27,7 @@ export default class ProfileDetail extends React.Component{
     removeProfile(){
         const {index} = this.state;
         const {navigation, ProfileStore} = this.props;
-        ProfileStore.removeProfile(index);
+        ProfileStore.ProfileStore.removeProfile(index);
         navigation.goBack();
     }
 

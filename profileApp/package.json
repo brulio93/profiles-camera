@@ -21,6 +21,7 @@
     "preset": "jest-expo"
   },
   "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
     "react": "16.0.0",
     "react-native": "^0.49.3",
     "react-native-camera": "^0.10.0",

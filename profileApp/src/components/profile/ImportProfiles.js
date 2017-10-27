@@ -5,7 +5,7 @@ import styles from '../../styles/Styles';
 import {inject, observer} from 'mobx-react';
 import ProfileStore from '../../stores/ProfileStore';
 
-@inject('ProfileStore')
+@inject('ProfileStore', 'ImportStore')
 @observer
 export default class ImportProfiles extends React.Component{
     constructor(props){
@@ -16,40 +16,25 @@ export default class ImportProfiles extends React.Component{
             isLoading: false
         };
     }
-
-
     componentDidMount(){
         this.getData();
     }
 
     async getData(url = this.state.serviceUrl){
+        const {ImportStore} = this.props.ImportStore;
         this.setState({
             data: undefined
         });
-        fetch(url)
-            .then((response) => response.json())
-            .then((responseData) => {
-                this.setState({
-                    data: responseData.data || responseData,
-                    serviceUrl: url,
-                });
-                return responseData;
-            })
-            .catch((error) => {
-               Alert.alert(`Error: ${error}`);
-               console.error(error);
-            });
+        var profiles = await ImportStore.getProfiles(url);
+        this.setState({
+            data: profiles,
+            serviceUrl: url
+        });        
     }
 
     selectObject(selectedObject){
-        var temp = this.state.data;
-        temp.map((dataObject, i) =>{
-            if(selectedObject.id === dataObject.id){
-                dataObject.isSelected = !dataObject.isSelected;
-                return;
-            }
-        });
-
+        const {ImportStore} = this.props.ImportStore;
+        var temp = ImportStore.selectedProfileToImport(selectedObject);
         this.setState({data:temp});
     }
     getSelectedObject (){ 
@@ -83,8 +68,7 @@ export default class ImportProfiles extends React.Component{
     }
 
     importToProfiles(){
-        debugger
-        const { ProfileStore } = this.props;
+        const { ProfileStore } = this.props.ProfileStore;
         const  selectedObject = this.getSelectedObject();
         var temp = [];
         if(selectedObject.length){
@@ -101,14 +85,13 @@ export default class ImportProfiles extends React.Component{
         }
 
     }
-
     getUrl(itemValue){
         this.getData(itemValue);
     }
 
     renderDataList(){
         if(this.state.data){
-        return  <List>{ this.getAvailableData() }</List>
+            return  <List>{ this.getAvailableData() }</List>
         }
         return;
     }

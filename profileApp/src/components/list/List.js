@@ -22,7 +22,7 @@ export default class MyList extends React.Component{
 
     displayProfile(profile, index){
         const {navigate} = this.props.navigation;             
-        this.props.ProfileStore.profileSelected(profile);
+        this.props.ProfileStore.ProfileStore.profileSelected(profile);
         navigate("ProfileDetail", {'index': index});
     }
 
@@ -33,7 +33,7 @@ export default class MyList extends React.Component{
     }
 
     render(){
-        const {ProfileStore} = this.props;
+        const {ProfileStore} = this.props.ProfileStore;
         const {profilesSelected} = this.state;
         return(
             <ScrollView>

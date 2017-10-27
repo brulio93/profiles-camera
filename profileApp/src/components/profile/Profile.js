@@ -26,20 +26,20 @@ export default class Profile extends React.Component{
 
 
     componentDidMount(){
-        const {ProfileStore} = this.props;
+        const {ProfileStore} = this.props.ProfileStore;
         var global = this;
 
         AsyncStorage.getItem(ProfileStore.StorageUrl)
-        .then((val) => { if(val){ global.props.ProfileStore.profiles = JSON.parse(val); }} ).done();
+        .then((val) => { if(val){ global.props.ProfileStore.ProfileStore.profiles = JSON.parse(val); }} ).done();
     }
     createProfile(){
         const {navigation, ProfileStore} = this.props;
         try{
-            ProfileStore.addProfile({
+            ProfileStore.ProfileStore.addProfile({
                 name: this.state.name,
                 phone: this.state.phone,
                 address: this.state.address,
-                photo_uri: this.props.ProfileStore.photo_uri
+                photo_uri: this.props.ProfileStore.ProfileStore.photo_uri
             });
         }
         catch(error){
@@ -77,7 +77,6 @@ export default class Profile extends React.Component{
     
     renderCamera(){
         let content = null;
-        const {ProfileStore} = this.props;
         if(this.state.isCameraOn){
             content = <Card title = 'Take a photo'>
                 <View style={{height: 250}}>
@@ -87,7 +86,7 @@ export default class Profile extends React.Component{
         }
         else {
             content = (            
-                <Card title='Profile' image = { { uri: this.state.photo_uri || ProfileStore.photo_uri } } >
+                <Card title='Profile' image = { { uri: this.state.photo_uri || this.props.ProfileStore.ProfileStore.photo_uri } } >
                     <TextInput style={styles.textInput} placeholder="Name" onChangeText={(name) => this.setState({name})} value = {this.state.name} />
                     <TextInput style={styles.textInput} keyboardType='numeric' placeholder="Phone" onChangeText={(phone) => this.setState({phone})} value = {this.state.phone}/>
                     <TextInput style={styles.textInput} placeholder="Address" onChangeText={(address) => this.setState({address})} value = {this.state.address}/>
@@ -98,7 +97,6 @@ export default class Profile extends React.Component{
     }
 
     render(){
-        const {ProfileStore} = this.props;
         let content = this.renderCamera();
         return(
             <View style={styles.indexContainer}>
