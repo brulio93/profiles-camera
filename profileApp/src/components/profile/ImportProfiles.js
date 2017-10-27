@@ -104,9 +104,9 @@ export default class ImportProfiles extends React.Component{
                 <Card title = "Data Access">
                     <Picker selectedValue = {this.state.serviceUrl} onValueChange = {(itemValue) => this.getUrl(itemValue)}>
                         <Picker.Item label = "Typicode" value = "https://jsonplaceholder.typicode.com/users"/>
-                        <Picker.Item label = "Reqres" value = "https://reqres.in/api/users" />
+                        <Picker.Item label = "Reqres" value = "https://reqres.in/api/users" />                        
                     </Picker>
-                    <Text>{this.props.isLoading ? 'Loading...' : ''} </Text>
+                    <Text>{ this.state.isLoading ? 'Loading...' : ''} </Text>
                 </Card>
 
                 <Card title = "Profiles">

@@ -1,16 +1,23 @@
-import React from 'react';
 import 'react-native';
+import React from 'react';
+import Enzyme from 'enzyme';
 import Profile from '../../components/profile/Profile';
 import renderer from 'react-test-renderer';
+import {render, mount, shallow} from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
 
-const mockCamera = require('../../mocks/Camera').default;
-const ProfileStore = require('../../stores/ProfileStore').default;
+const ProfileStore = require.requireActual('../../stores/ProfileStore').default;
+Enzyme.configure({adapter: new Adapter()});
 
-jest.mock('react-native-camera', () => mockCamera);
+jest.mock('react-native-camera', () => require.requireActual('../../__mocks__/Camera').default);
 
 describe('Create a component', () => { 
-  test('renders correctly', () => {
+  /*it('renders correctly', () => {
     const render = renderer.create(<Profile ProfileStore={ProfileStore.ProfileStore}/>).toJSON();
     expect(render).toMatchSnapshot();
+  });*/
+  it('use shallow to render the component', () => {
+    const wrapper = shallow(<Profile ProfileStore={ProfileStore.ProfileStore}/>);
+    expect(wrapper).toMatchSnapshot();
   });
 });
