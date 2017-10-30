@@ -10,11 +10,6 @@ const ProfileStore = require.requireActual('../../stores/ProfileStore').default;
 Enzyme.configure({adapter: new Adapter()});
 
 describe('ProfilesList', () => {
-    /*it("render filtered profiles", () =>{
-        const render = renderer.create(<MyList ProfileStore={ProfileStore.ProfileStore} />);
-        expect(render).toMatchSnapshot();
-    });*/
-
     it('render the component', () =>{
         const wrapper = shallow(<MyList ProfileStore={ProfileStore.ProfileStore} />)
         expect(wrapper).toMatchSnapshot();

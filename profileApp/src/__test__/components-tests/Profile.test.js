@@ -12,10 +12,6 @@ Enzyme.configure({adapter: new Adapter()});
 jest.mock('react-native-camera', () => require.requireActual('../../__mocks__/Camera').default);
 
 describe('Create a component', () => { 
-  /*it('renders correctly', () => {
-    const render = renderer.create(<Profile ProfileStore={ProfileStore.ProfileStore}/>).toJSON();
-    expect(render).toMatchSnapshot();
-  });*/
   it('use shallow to render the component', () => {
     const wrapper = shallow(<Profile ProfileStore={ProfileStore.ProfileStore}/>);
     expect(wrapper).toMatchSnapshot();
